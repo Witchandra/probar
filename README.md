@@ -6,12 +6,12 @@ Aquí resumo las secuencias de ADN de orquídeas que he analizado, junto con un 
 | Tipo                 |   Definición       | Comando             |
 |----------------------|--------------------|---------------------------|
 | *String* | Letras           | str |
-| *Integer* | Número enteros        | int | wc -m` |
-| *Float*   | Decimales           | float | wc -m` |
-|*Lista*       | Conjunto de elementos, Variados,  Ordenado |list | fsdf |
+| *Integer* | Número enteros        | int |
+| *Float*   | Decimales           | float |
+|*Lista*       | Conjunto de elementos, Variados,  Ordenado |list |
 
 
-## Herramientas
+## 2. Herramientas
 
 ### Type
  - Determinar el tipo de un objeto. Incluso en funciones avanzadas crear un nuevo tipo.
@@ -90,7 +90,6 @@ print(DNA.count('T'),DNA.count('A'))
 ```
 
 ### Calcular porcentaje de un elemento de una str
- - 
 Ejemplo:
 ```python
 DNA = "ACGATCGACTGACTAGCTACTT"
@@ -144,4 +143,11 @@ else:
 	x=x+5
 print(x)
 # Out 16
+```
+
+### dfsdfdf
+-
+```python
+round(24.568484354354646846,2)
+# Out 24.57
 ```
