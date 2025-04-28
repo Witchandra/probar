@@ -157,7 +157,7 @@ print(DNA [0:3])
 - Formado por llaves y valores. Sirve para que busques cosas.
 - Ejemplo: Taxa={'Peces':3,'Monotreas':6,'Reptiles':15,'Lepidoptera':50}
 
-	- # Crear un diccionario a partir de listas
+	- #### Crear un diccionario a partir de listas
 	```python
 	Keys = ['Peces','Monotreas','Reptiles','Lepidoptera']
 	Values = [3,6,15,50]
@@ -166,3 +166,40 @@ print(DNA [0:3])
 	# Out {'Peces': 3, 'Monotreas': 6, 'Reptiles': 15, 'Lepidoptera': 50}
 	```
  	
+	- #### Buscar el valor de una llave
+   	1. Busca el valor de tal llave, pero si NO exite se rompe el codigo.
+	```python
+	Taxa['Peces']
+	# Out 3
+	```
+    	2. Busca el valor de tal llave, pero si NO exite te da una nada o un 		valor predeterminado. NO se agrega al diccionario
+	```python
+	Taxa.get('Mamiferos')
+	# Out:
+	```
+ 	```python
+	Taxa.get('Mamiferos',9)
+	# Out 9
+	```
+
+  	- #### Solicitar llave o valores
+	```python
+	Taxa.keys()
+ 	# Out dict_keys(['Peces', 'Monotreas', 'Reptiles', 'Lepidoptera'])
+
+	Taxa.values()
+	# Out dict_values([3, 6, 15, 50])
+	```
+
+   	- #### Agregar una llave nueva o cambiar un valor
+	```python
+	Taxa['Mamiferos']=2
+	# Out {'Peces': 3, 'Monotreas': 6, 'Reptiles': 15, 'Lepidoptera': 50, 		'Mamiferos': 2}
+	```
+
+  	- #### Eliminar una llave
+	```python
+	del(Taxa['Mamiferos'])
+ 	print(Taxa)
+	# Out {'Peces': 3, 'Monotreas': 1, 'Reptiles': 15, 'Lepidoptera': 50}
+	```
