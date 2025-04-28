@@ -1,4 +1,4 @@
-# Lenguaje de programación en Jypiter - Python
+	# Lenguaje de programación en Jypiter - Python
 
 ## 1. Tipos de objetos
 Aquí resumo las secuencias de ADN de orquídeas que he analizado, junto con un comando simple para procesarlas:
@@ -9,7 +9,7 @@ Aquí resumo las secuencias de ADN de orquídeas que he analizado, junto con un 
 | *Integer* | Número enteros        | int |
 | *Float*   | Decimales           | float |
 |*Lista*       | Conjunto de elementos, Variados,  Ordenado |list |
-
+|*Diccionario*       | Sirve para buscar cosas |dict |
 
 ## 2. Herramientas
 
@@ -145,9 +145,24 @@ print(x)
 # Out 16
 ```
 
-### dfsdfdf
--
+### Posiciones
+- Recuerda que las posiciones inician desde 0. Si quieres un seleccionar una posicion entonces pones en corchetes el primero numero es la posicion, el final es "stop".
 ```python
-round(24.568484354354646846,2)
-# Out 24.57
+DNA = "ACGATCGACTGACTAGCTACTT"
+print(DNA [0:3])
+# Out "ACG"
 ```
+
+### Diccionario
+- Formado por llaves y valores. Sirve para que busques cosas.
+- Ejemplo: Taxa={'Peces':3,'Monotreas':6,'Reptiles':15,'Lepidoptera':50}
+
+	- # Crear un diccionario a partir de listas
+	```python
+	Keys = ['Peces','Monotreas','Reptiles','Lepidoptera']
+	Values = [3,6,15,50]
+	Taxa = dict(zip(Keys,Values))
+	print(Taxa)
+	# Out {'Peces': 3, 'Monotreas': 6, 'Reptiles': 15, 'Lepidoptera': 50}
+	```
+ 	
