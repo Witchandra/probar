@@ -55,7 +55,7 @@ Ejemplo:
 # Out 'ab'
 ```
 
-### Encontrar posiciom
+### Encontrar posicion
  - Para encontrar primera posion o puedes usarla para una posicion en especifico
 Ejemplo:
 ```python
@@ -69,6 +69,14 @@ elif DNAseq.find('ATT') == 0:
     print('se expresa! en la mitocondria')
 else:
     print('no se expresa')
+```
+
+### Posiciones
+- Recuerda que las posiciones inician desde 0. Si quieres un seleccionar una posicion entonces pones en corchetes el primero numero es la posicion, el final es "stop".
+```python
+DNA = "ACGATCGACTGACTAGCTACTT"
+print(DNA [0:3])
+# Out "ACG"
 ```
 
 ### Pedir ayuda
@@ -167,14 +175,6 @@ else:
 	x=x+5
 print(x)
 # Out 16
-```
-
-### Posiciones
-- Recuerda que las posiciones inician desde 0. Si quieres un seleccionar una posicion entonces pones en corchetes el primero numero es la posicion, el final es "stop".
-```python
-DNA = "ACGATCGACTGACTAGCTACTT"
-print(DNA [0:3])
-# Out "ACG"
 ```
 
 ### Diccionario
