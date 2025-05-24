@@ -55,6 +55,30 @@ Ejemplo:
 # Out 'ab'
 ```
 
+### Encontrar posiciom
+ - Para encontrar primera posion o puedes usarla para una posicion en especifico
+Ejemplo:
+```python
+DNAseq = input('Introduce la secuencia de tu primer: ')
+DNAseq = DNAseq.upper().replace(' ','')
+if DNAseq.find('ATG') == 0:
+    print('eureka, se expresa')
+elif DNAseq.find('ATA') == 0:
+    print('se expresa! en la mitocondria')
+elif DNAseq.find('ATT') == 0:
+    print('se expresa! en la mitocondria')
+else:
+    print('no se expresa')
+```
+
+### Pedir ayuda
+Ejemplo:
+```python
+dir(DNA)
+
+DNA.upper?
+```
+
 ### Poner en mayusculas y remplazar
 Ejemplo:
 ```python
@@ -203,5 +227,7 @@ print(DNA [0:3])
  	print(Taxa)
 	# Out {'Peces': 3, 'Monotreas': 1, 'Reptiles': 15, 'Lepidoptera': 50}
 	```
+
+ 
 
 
